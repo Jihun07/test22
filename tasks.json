@@ -1,5 +1,5 @@
 [
-    { "date": "0821", "subject": "국어", "description": "작문 과제 제출", "image": "https://raw.githubusercontent.com/Jihun07/test22/main/images/images.jpeg" },
+    { "date": "0821", "subject": "국어", "description": "작문 과제 제출", "image": "https://github.com/Jihun07/test22/blob/main/images/images.jpeg" },
     { "date": "0823", "subject": "수학", "description": "기말고사 준비", "image": "images/수학.png" },
     { "date": "0821", "subject": "영어", "description": "듣기 평가", "image": "images/영어.png" },
     { "date": "0825", "subject": "확통", "description": "문제 풀이 연습", "image": "images/확통.png" },

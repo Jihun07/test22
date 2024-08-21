@@ -1,93 +1,156 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f7f7f7;
     color: #333;
 }
 
 header {
-    background-color: #007bff;
+    background-color: #4CAF50;
     color: white;
+    padding: 10px 0;
     text-align: center;
-    padding: 1em 0;
-    font-size: 2em;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .container {
     width: 90%;
+    max-width: 1200px;
     margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 .sort-button {
     display: block;
-    margin: 20px 0;
-    padding: 10px;
-    background-color: #007bff;
+    margin: 0 auto 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
     color: white;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 .sort-button:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
 }
 
 .task-list {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 .task-item {
-    background: white;
-    margin: 10px 0;
+    border: 1px solid #ddd;
     padding: 15px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    border-radius: 4px;
+    position: relative;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
 }
 
-.task-item-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.task-item:hover {
+    background-color: #f1f1f1;
 }
 
-.task-item-date,
-.task-item-subject,
-.task-item-description,
-.task-item-dday {
-    flex-basis: 20%;
-    text-align: center;
+.task-item .toggle-icon {
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #4CAF50;
 }
 
 .task-item img {
-    max-width: 100%;
-    height: auto;
     display: none;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#calendar {
+    margin-top: 30px;
+}
+
+#calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#calendar-header button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#calendar-header button:hover {
+    background-color: #45a049;
+}
+
+#calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative;
+}
+
+.calendar-day:hover {
+    background-color: #f1f1f1;
+}
+
+.calendar-day.has-task {
+    background-color: #ffcccc;
 }
 
 .popup {
     display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
     background-color: white;
+    border: 1px solid #ddd;
     padding: 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
 }
 
 .popup .close {
-    display: block;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
     cursor: pointer;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
 }
 
 .popup .close:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
 }

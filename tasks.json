@@ -1,3 +1,17 @@
 [
-    { "date": "1231", "subject": "테스트", "description": "테스트", "image": "https://placehold.co/600x400" },
+    { "date": "0820", "subject": "국어", "description": "작문 과제 제출", "image": "https://placehold.co/600x400" },
+    { "date": "0823", "subject": "수학", "description": "기말고사 준비", "image": "https://raw.githubusercontent.com/Jihun07/test22/main/images/images.jpeg" },
+    { "date": "0821", "subject": "영어", "description": "듣기 평가", "image": "https://placehold.co/600x400" },
+    { "date": "0825", "subject": "확통", "description": "문제 풀이 연습", "image": "https://i.imgur.com/tMtDapa.jpeg" },
+    { "date": "0822", "subject": "물리", "description": "실험 보고서 제출", "image": "images/물리.png" },
+    { "date": "0824", "subject": "생명", "description": "이론 시험 준비", "image": "images/생명.png" },
+    { "date": "0827", "subject": "화학", "description": "화학식 암기", "image": "images/화학.png" },
+    { "date": "0828", "subject": "지구", "description": "지구과학 연습문제", "image": "images/지구.png" },
+    { "date": "0830", "subject": "일본어", "description": "어휘 시험", "image": "images/일본어.png" },
+    { "date": "0815", "subject": "국어", "description": "문학 분석 제출", "image": "images/국어.png" },
+    { "date": "0818", "subject": "물리", "description": "실험 결과 보고서", "image": "images/물리.png" },
+    { "date": "0819", "subject": "화학", "description": "화학 실험", "image": "images/화학.png" },
+    { "date": "0820", "subject": "생명", "description": "세포 구조 발표", "image": "images/생명.png" },
+    { "date": "0822", "subject": "확통", "description": "복습 시험", "image": "images/확통.png" },
+    { "date": "0831", "subject": "일본어", "description": "문법 연습", "image": "images/일본어.png" }
 ]

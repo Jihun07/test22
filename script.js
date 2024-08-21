@@ -1,6 +1,6 @@
 // GitHub에서 tasks.json 데이터를 가져오기
 const fetchTasks = async () => {
-    const response = await fetch('https://raw.githubusercontent.com/사용자명/저장소명/브랜치명/tasks.json');
+    const response = await fetch('https://raw.githubusercontent.com/Jihun07/test22/main/tasks.json');
     const tasks = await response.json();
     return tasks;
 };

@@ -22,7 +22,12 @@
 
 // GitHub에서 tasks.json 데이터를 가져오기
 const fetchTasks = async () => {
-    const response = await fetch('https://raw.githubusercontent.com/Jihun07/test22/main/tasks.json');
+    const response = await fetch('https://raw.githubusercontent.com/Jihun07/test22/main/tasks.json', {
+        headers: {
+            'Cache-Control': 'no-cache'
+        }
+    });
+    
     const tasks = await response.json();
     return tasks;
 };

@@ -1,6 +1,5 @@
 [
     { "date": "0101", "subject": "국어", "description": "테스트", "image": "https://placehold.co/600x400" },
-    { "date": "0102", "subject": "국어", "description": "테스트", "image": "https://placehold.co/600x400" },
     { "date": "0830", "subject": "국어", "description": "테스트", "image": "https://placehold.co/600x400" },
     { "date": "1231", "subject": "영어", "description": "테스트", "image": "https://placehold.co/600x400" }
     
